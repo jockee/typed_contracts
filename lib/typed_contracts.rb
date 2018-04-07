@@ -26,7 +26,8 @@ module TypedContracts
     end
   end
 
-  class PresentMaybeOf < MaybeOf; end
+  class ToPresenceMaybeOf < MaybeOf; end
+  class ToMaybeOf < MaybeOf; end
 
   class EitherOf < ::Contracts::CallableClass
     def initialize(*vals)
